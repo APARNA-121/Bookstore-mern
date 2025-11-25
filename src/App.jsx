@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './users/pages/Home'
-import Books from './users/pages/Contact'
+import Books from './users/pages/Books'
 import Contact from './users/pages/Contact'
 import Profile from './users/pages/Profile'
 import View from './users/pages/View'
@@ -28,8 +28,9 @@ function App() {
       <Route path='/' element={loading?<Preloader/>:<Home/>}/>
       <Route path='/login' element={<Auth/>}/>
       <Route path='/register' element={<Auth insideRegister={true} />}/>
-      <Route path='/contact' element={<Contact/>}/>
       <Route path='/books' element={<Books/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      
 
       <Route path='/user/profile' element={<Profile/>}/>
       <Route path='/books/:id/view' element={<View/>}/>

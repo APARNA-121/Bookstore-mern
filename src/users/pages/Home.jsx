@@ -9,8 +9,8 @@ function Home() {
       <Header/>
       <div>
         {/* landing part - search */}
-        <div style={{height:'500px'}} className='flex justify-center items-center flex-col bg-[url(/background-image.png)] bg-cover bg-center text-white '>
-        <div style={{height:'500px',backgroundColor:'rgba(0,0,0,0.4)'}} className='w-full flex justify-center items-center flex-col'>
+        <div style={{height:'650px'}} className='flex justify-center items-center flex-col bg-[url(/bg-book.jpg)] bg-cover bg-center text-white '>
+        <div style={{height:'650px',backgroundColor:'rgba(0,0,0,0.4)'}} className='w-full flex justify-center items-center flex-col'>
           <h1 className="text-5xl font-bold mb-2">Wonderful Gifts</h1>
           <p>Gift your family and friends a book</p>
           {/* search */}
