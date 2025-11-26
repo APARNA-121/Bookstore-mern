@@ -53,7 +53,6 @@ function Footer() {
 </div>
 <div className='flex justify-center items-center text-white' style={{backgroundColor:'gray'}}><p>Copyright 2023 All rights reserved | This website is made with 🤍 By Luminar Technolab</p></div>
 
-
     </>
   )
 }
