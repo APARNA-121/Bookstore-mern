@@ -20,8 +20,8 @@ const [tab,setTab] = useState(1)
         </h1>
         {/* tabs */}
         <div className="flex my-10 justify-center items-center">
-          <p onClick={()=>setTab(1)} className={tab==1?"text-blue-600 font-bold border-gray-200 text-xl border-t border-1 border-r p-3 cursor-pointer":"border-b font-bold border-gray-200 text-xl p-3"}>Books</p>
-          <p onClick={()=>setTab(2)} className={tab==2?"text-blue-600 font-bold border-gray-200 text-xl border-t border-1 border-r p-3 cursor-pointer":"border-b font-bold border-gray-200 text-xl p-3"}>Users</p>
+          <p onClick={()=>setTab(1)} className={tab==1?"text-blue-600 font-bold border-gray-200 text-xl border-t border-l border-r p-3 cursor-pointer":"border-b font-bold border-gray-200 text-xl p-3"}>Books</p>
+          <p onClick={()=>setTab(2)} className={tab==2?"text-blue-600 font-bold border-gray-200 text-xl border-t border-l border-r p-3 cursor-pointer":"border-b font-bold border-gray-200 text-xl p-3"}>Users</p>
         </div>
         {/* tab contents */}
         {
